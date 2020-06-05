@@ -4,6 +4,10 @@
 
 h1{
     text-align: center;
+    font-size: 30px;
+}
+h2{
+    text-decoration: underline;
 }
 
 .intro{
@@ -31,15 +35,15 @@ body {
 }
 
 header {
+    background-color: azure;
 }
 
 p{
-    font-family: serif;
     
 }
 img {
     display: block;
-    width: 200px;
+    width: 260px;
     height: 300px;
     border: 3px solid cornflowerblue;
 
@@ -47,8 +51,14 @@ img {
 table{
     border-spacing: 50px;
     border-collapse: separate;
-    padding: 10px;
     border: 3px solid cornflowerblue;
+}
+th{
+    font-size: 25px; 
+}
+
+td{
+    font-size: 20px;
 }
 }
 
@@ -70,7 +80,7 @@ a{
     float: left;
     color: cornflowerblue;
     text-align: center;
-    padding: 14px 160px;
+    padding: 14px 130px;
     font-size: 18px;
     z-index: 2;
 }
@@ -78,5 +88,5 @@ a{
 footer {
     text-align: center;
     font-size: 15px;
-    
+    color: white;
 }
